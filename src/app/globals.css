@@ -1,26 +1,175 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-sans-custom);
+  --font-serif: var(--font-serif-custom);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+.paper-texture {
+  position: relative;
+  isolation: isolate;
+}
+
+.paper-texture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(79, 70, 229, 0.055) 0.7px, transparent 0.7px),
+    radial-gradient(rgba(139, 92, 246, 0.045) 0.7px, transparent 0.7px);
+  background-size: 4px 4px, 5px 5px;
+  background-position: 0 0, 2px 1px;
+}
+
+.animate-month-in-right {
+  animation: monthInRight 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.animate-month-in-left {
+  animation: monthInLeft 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes monthInRight {
+  from {
+    opacity: 0;
+    transform: translateX(18px) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes monthInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-18px) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+.animate-hero-enter {
+  animation: heroEnter 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes heroEnter {
+  from {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmerMove {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmerMove 2.2s ease-in-out infinite;
+}
+
+@keyframes clearPop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(0.94);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-clear-pop {
+  animation: clearPop 0.45s ease-out;
+}
+
+@keyframes notesSaved {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-from, #6366f1) 35%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 8px transparent;
+  }
+}
+
+.animate-notes-saved {
+  animation: notesSaved 0.55s ease-out;
+}
+
+@keyframes savedBadge {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-saved-badge {
+  animation: savedBadge 0.35s ease-out;
+}
+
+/* Hero image: subtle zoom-in after load (pairs with opacity in component) */
+@keyframes heroZoomIn {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-hero-zoom-loaded {
+  animation: heroZoomIn 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Month label on hero: entrance + readability */
+@keyframes heroTitleIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-hero-title {
+  animation: heroTitleIn 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
