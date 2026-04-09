@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗓️ Interactive Wall Calendar Component
 
-## Getting Started
+A premium, responsive, and interactive wall calendar built using **Next.js + Tailwind CSS**, inspired by a physical wall calendar aesthetic.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+### 📅 Calendar Functionality
+- Monthly calendar view with smooth navigation
+- Interactive **date range selection** (start → end)
+- Visually connected range (pill-style UI)
+- Highlight for **current day**
+- Past dates are visually differentiated
+
+---
+
+### 🖼️ Dynamic Hero Section
+- Beautiful **hero image** that changes with month
+- Gradient overlay for readability
+- Clean wall calendar inspired layout
+
+---
+
+### 📝 Notes System
+- Add notes for individual dates
+- Notes stored using **localStorage**
+- Auto-save with visual feedback
+- Indicator (dot) on dates with notes
+
+---
+
+### 🎨 UI/UX Enhancements
+- Smooth animations & transitions
+- Hover and click interactions
+- Responsive design (mobile + desktop)
+- Premium modern UI with soft shadows and spacing
+
+---
+
+## 📱 Responsiveness
+
+- Fully responsive layout
+- Mobile-first design
+- Touch-friendly interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- LocalStorage (for persistence)
+
+---
+
+## 🚀 Live Demo
+
+👉 [View Live Project](https://your-vercel-link.vercel.app)
+
+---
+
+## 📦 Installation & Setup
 
 ```bash
+git clone https://github.com/your-username/Wall_Calender.git
+cd Wall_Calender
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
