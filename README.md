@@ -1,4 +1,13 @@
+<p align="center">
+  <img src="https://wall-calender-mu.vercel.app/" alt="Calendar Preview" />
+</p>
+
 # 🗓️ Interactive Wall Calendar Component
+
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ✨ A premium, responsive, and interactive calendar experience inspired by a **physical wall calendar**, built with modern frontend technologies.
 
@@ -6,10 +15,19 @@
 
 ---
 
+## 🚀 Quick Highlights
+
+- ⚡ Smooth date range selection  
+- 📝 Notes with localStorage persistence  
+- 🎨 Dynamic month-based hero images  
+- 📱 Fully responsive design  
+- ✨ Premium UI with animations  
+
+---
+
 ## 🌐 Live Demo
 
-🚀 **Try it here:**  
-👉 https://wall-calender-mu.vercel.app/
+👉 🔥 **Live Demo:** https://wall-calender-mu.vercel.app/
 
 ---
 
@@ -19,18 +37,7 @@
 
 ---
 
-## 🧠 What Makes This Special?
-
-This project goes beyond a basic calendar by focusing on:
-
-- 🎯 **User Experience (UX-first design)**
-- 🎨 **Visual hierarchy & aesthetics**
-- ⚡ **Smooth interactions & animations**
-- 📱 **Seamless responsiveness**
-
----
-
-## ✨ Key Features
+## ✨ Features
 
 ### 📅 Interactive Calendar
 - Monthly navigation with smooth transitions
@@ -43,60 +50,58 @@ This project goes beyond a basic calendar by focusing on:
 
 ---
 
-### 🖼️ Dynamic Hero Experience
+### 🖼️ Dynamic Hero Section
 - Month-based **dynamic hero images**
 - Gradient overlay for readability
-- Creates a **real wall calendar feel**
+- Real **wall calendar aesthetic**
 
 ---
 
-### 📝 Smart Notes System
+### 📝 Notes System
 - Add notes to specific dates
 - Auto-save using **localStorage**
-- Persistent data even after refresh
-- Visual **dot indicators** for dates with notes
+- Persistent even after refresh
+- Visual **dot indicators** for notes
 
 ---
 
-### 🎨 Premium UI/UX
-- Smooth animations (hover, click, transitions)
-- Clean spacing and modern design
-- Soft shadows and rounded UI
-- Designed to feel like a **real product**
+### 🎨 UI/UX Enhancements
+- Smooth animations and transitions
+- Hover and click interactions
+- Clean layout with modern spacing
+- Designed as a **real product experience**
 
 ---
 
-## 📱 Fully Responsive
+## 📱 Responsiveness
 
 | Device | Experience |
 |------|--------|
-| 💻 Desktop | Split layout with strong visual hierarchy |
-| 📱 Mobile | Stacked layout with touch-friendly interactions |
+| 💻 Desktop | Split layout with visual hierarchy |
+| 📱 Mobile | Stacked layout with touch-friendly UI |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **Next.js (App Router)**
-- ⚛️ **React**
-- 🎨 **Tailwind CSS**
-- 💾 **LocalStorage** (frontend-only persistence)
+- ⚛️ Next.js (App Router)  
+- ⚛️ React  
+- 🎨 Tailwind CSS  
+- 💾 LocalStorage  
 
 ---
 
 ## ⚙️ How to Run Locally
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/23it101PopatHemangi/Wall_Calender.git
 
-# Navigate into project
+# Navigate into folder
 cd Wall_Calender
 
 # Install dependencies
 npm install
 
-# Start development server
+# Run development server
 npm run dev
-
-👉 Open: http://localhost:3000
