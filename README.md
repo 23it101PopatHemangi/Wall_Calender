@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-  <img src="./preview.png" alt="Calendar Preview" />
+  <img src="./Preview.png" alt="Calendar Preview" />
 </p>
 </p>
 
