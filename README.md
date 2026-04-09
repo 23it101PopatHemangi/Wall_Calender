@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://wall-calender-mu.vercel.app/" alt="Calendar Preview" />
+  <p align="center">
+  <img src="./preview.png" alt="Calendar Preview" />
+</p>
 </p>
 
 # 🗓️ Interactive Wall Calendar Component
