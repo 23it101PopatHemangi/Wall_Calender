@@ -98,3 +98,5 @@ npm install
 
 # Start development server
 npm run dev
+
+👉 Open: http://localhost:30
