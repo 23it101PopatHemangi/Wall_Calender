@@ -99,4 +99,4 @@ npm install
 # Start development server
 npm run dev
 
-👉 Open: http://localhost:30
+👉 Open: http://localhost:3000
