@@ -35,7 +35,7 @@
 
 ## 🎥 Demo Video
 
-👉 [https://drive.google.com/drive/folders/1CU5b-PiNJkMS6ihMgfhc9zYSTKlgdILZ?usp=sharing]
+👉 https://drive.google.com/drive/folders/1CU5b-PiNJkMS6ihMgfhc9zYSTKlgdILZ?usp=sharing
 
 ---
 
